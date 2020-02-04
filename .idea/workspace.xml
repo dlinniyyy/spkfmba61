@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="164958f7-1066-4f3b-80f6-1fcf07912241" name="Default Changelist" comment="container">
+      <change afterPath="$PROJECT_DIR$/public/images/logospk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
     </list>
@@ -124,13 +126,13 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/js" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\ospanel\OSPanel\domains\spk_laravel\public\fonts" />
-      <recent name="C:\ospanel\OSPanel\domains\spk_laravel\public\images" />
       <recent name="C:\ospanel\OSPanel\domains\spk_laravel\public\js" />
+      <recent name="C:\ospanel\OSPanel\domains\spk_laravel\public\images" />
+      <recent name="C:\ospanel\OSPanel\domains\spk_laravel\public\fonts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -169,6 +171,7 @@
       <workItem from="1580278514085" duration="20352000" />
       <workItem from="1580476539903" duration="2091000" />
       <workItem from="1580632072964" duration="1571000" />
+      <workItem from="1580793986728" duration="6530000" />
     </task>
     <task id="LOCAL-00001" summary="container">
       <created>1580386477666</created>

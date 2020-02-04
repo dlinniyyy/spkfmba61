@@ -36,46 +36,47 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="main-header" id="house">
     <div class="header-strip">
         <div class="container">
-            <p class="location"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> <a href="mailto:info@example.com">info@example.com</a></p>
-            <p class="phonenum"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> + 655 8858 54892</p>
-            <div class="social-icons">
-                <ul>
-                    <li><a href="#"><i class="facebook"> </i></a></li>
-                    <li><a href="#"><i class="twitter"> </i></a></li>
-                    <li><a href="#"><i class="google-plus"> </i></a></li>
-                    <li><a href="#"><i class="dribble"> </i></a></li>
-                </ul>
-            </div>
+            <p class="location"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> <a href="mailto:info@example.com">dspk-rostov@mail.ru</a></p>
+            <p class="phonenum"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+ 7(632)238-39-46</p>
+{{--            Ссылки на социальные сети--}}
+{{--            <div class="social-icons">--}}
+{{--                <ul>--}}
+{{--                    <li><a href="#"><i class="facebook"> </i></a></li>--}}
+{{--                    <li><a href="#"><i class="twitter"> </i></a></li>--}}
+{{--                    <li><a href="#"><i class="google-plus"> </i></a></li>--}}
+{{--                    <li><a href="#"><i class="dribble"> </i></a></li>--}}
+{{--                </ul>--}}
+{{--            </div>--}}
             <div class="clearfix"></div>
         </div>
     </div>
     <div class="header-middle">
-        <div class="header-search">
-            <form action="#" method="post">
-                <div class="search">
-                    <input type="search" value="Search" name="search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}" required="">
-                </div>
-                <div class="section_room">
-                    <select id="country" onchange="change_country(this.value)" class="frm-field required">
-                        <option value="null">All Tests</option>
-                        <option value="null">Blood Test</option>
-                        <option value="AX">Urine Test </option>
-                        <option value="AX">Blood Volume Test</option>
-                        <option value="AX">Normal Test</option>
-                        <option value="AX">Body Scanning</option>
-                    </select>
-                </div>
-                <div class="sear-sub">
-                    <input type="submit" value=" ">
-                </div>
-                <div class="clearfix"></div>
-            </form>
-        </div>
+{{--        <div class="header-search">--}}
+{{--            <form action="#" method="post">--}}
+{{--                <div class="search">--}}
+{{--                    <input type="search" value="Search" name="search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}" required="">--}}
+{{--                </div>--}}
+{{--                <div class="section_room">--}}
+{{--                    <select id="country" onchange="change_country(this.value)" class="frm-field required">--}}
+{{--                        <option value="null">All Tests</option>--}}
+{{--                        <option value="null">Blood Test</option>--}}
+{{--                        <option value="AX">Urine Test </option>--}}
+{{--                        <option value="AX">Blood Volume Test</option>--}}
+{{--                        <option value="AX">Normal Test</option>--}}
+{{--                        <option value="AX">Body Scanning</option>--}}
+{{--                    </select>--}}
+{{--                </div>--}}
+{{--                <div class="sear-sub">--}}
+{{--                    <input type="submit" value=" ">--}}
+{{--                </div>--}}
+{{--                <div class="clearfix"></div>--}}
+{{--            </form>--}}
+{{--        </div>--}}
     </div>
     <!--header-top-->
     <div class="header-top">
         <div class="container">
-            <nav class="navbar navbar-default">
+            <nav class="navbar navbar-left">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -85,20 +86,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <span class="icon-bar"></span>
                     </button>
                     <div class="logo">
-                        <h1><a class="navbar-brand" href="index.html"><span>M</span>edicinal  <img src="images/logo.png" alt=" " /></a></h1>
+                        <h1><a  href="/"><img class="img-fluid" style="max-width: 100%" src="images/logospk.png" alt="Станция переливания крови" /></a></h1>
+                        {{--                        <h1><a class="navbar-brand" href="index.html"><span>M</span>edicinal  <img src="images/logo.png" alt=" " /></a></h1>--}}
                     </div>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+
+                <div class="collapse navbar-collapse nav-wil " id="bs-example-navbar-collapse-1">
                     <div class="top-menu">
                         <nav class="menu menu--francisco">
                             <ul class="nav navbar-nav menu__list">
-                                <li class="menu__item menu__item--current"><a href="index.html" class="menu__link"><span class="menu__helper">Home</span></a></li>
-                                <li class="menu__item"><a href="about.html" class="menu__link"><span class="menu__helper">About Us</span></a></li>
-                                <li class="menu__item"><a href="typography.html" class="menu__link"><span class="menu__helper">Short Codes</span></a></li>
-                                <li class="menu__item"><a href="gallery.html" class="menu__link"><span class="menu__helper">Departments</span></a></li>
-                                <li class="menu__item"><a href="contact.html" class="menu__link"><span class="menu__helper">Contact Us</span></a></li>
+                                <li class="menu__item menu__item--current"><a href="index.html" class="menu__link"><span class="menu__helper">Структура</span></a></li>
+                                <li class="menu__item"><a href="about.html" class="menu__link"><span class="menu__helper">Донорам</span></a></li>
+                                <li class="menu__item"><a href="typography.html" class="menu__link"><span class="menu__helper">Платные услуги</span></a></li>
+                                <li class="menu__item"><a href="gallery.html" class="menu__link"><span class="menu__helper">Вакансии</span></a></li>
+                                <li class="menu__item"><a href="contact.html" class="menu__link"><span class="menu__helper">Нормативы</span></a></li>
                             </ul>
                         </nav>
                     </div>
@@ -222,12 +225,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
         <div class="inner-w3">
             <div class="sub-hd">
-                <h3 class="tittle">ABOUT <span>US</span></h3>
+                <h3 class="tittle">О <span>НАС</span></h3>
             </div>
         </div>
 
         <div class="inner_tabs">
-            <h2 class="tittle">Welcome to Medicinal</h2>
+            <h2 class="tittle">Добро пожаловать на Станцию переливания крови</h2>
             <p class="sub-para">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem  </p>
             <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
                 <ul id="myTab" class="nav nav-tabs" role="tablist">
@@ -432,7 +435,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <ul id="flexiselDemo1">
         <li>
             <a href="single.html"><img src="images/n1.jpg" alt=""/></a>
-            <div class="slide-title"><h4>LOREM IPSUM DOLOR </div>
+            <div class="slide-title"><h4>LOREM IPSUM DOLOR </h4></div>
             <div class="prom-bottom">
                 <div class="prom-left">
                     <h5>May 22</h5>
@@ -745,7 +748,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     });
 </script>
 <!--end-smooth-scrolling-->
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<a href="#house" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<script src="js/bootstrap.js"></script>
+{{--<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>--}}
+{{--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>--}}
 </body>
 </html>
